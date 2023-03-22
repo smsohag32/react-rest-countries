@@ -4,7 +4,7 @@ const Country = (props) => {
     console.log(props.country);
     const { capital, name, area, population, region, status, flags } = props.country;
     return (
-        <div className='singleCountry'>
+        <div className='singleCountry' data-aos="fade-up" >
             <h2>{name.common}</h2>
             <img src={flags.png} alt="" />
             <div className='cardContent'>
