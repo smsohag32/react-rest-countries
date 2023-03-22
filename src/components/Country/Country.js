@@ -2,7 +2,7 @@ import React from 'react';
 
 const Country = (props) => {
     console.log(props.country);
-    const { capital, name, area, population, region, status, flags, languages } = props.country;
+    const { capital, name, area, population, region, status, flags } = props.country;
     return (
         <div className='singleCountry'>
             <h2>{name.common}</h2>
