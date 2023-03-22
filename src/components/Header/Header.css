@@ -1,0 +1,27 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.headerContainer nav ul a {
+    border: 1px transparent;
+    padding: 5px 15px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.headerContainer nav ul a:hover {
+    border: 1px solid gray;
+
+
+}

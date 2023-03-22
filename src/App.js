@@ -1,10 +1,13 @@
 
 import './App.css';
+import Countries from './components/Countries/Countries';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React app</h1>
+      <Header></Header>
+      <Countries></Countries>
     </div>
   );
 }

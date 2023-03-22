@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  color: white;
+  width: full;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background: linear-gradient(to right, rgb(254, 160, 77), rgb(252, 48, 122));
 }
 
 .App-logo {
@@ -32,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
